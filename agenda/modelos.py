@@ -16,7 +16,7 @@ class Contato:
 
     @property
     def tipo_contato(self):
-        return self.__tipo_do_contato
+        return self.__tipo_contato
 
     @tipo_contato.setter
     def tipo_contato(self, tipo_contato):
